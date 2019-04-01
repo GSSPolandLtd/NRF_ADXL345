@@ -1,6 +1,7 @@
 # ADXL 345 for NRF52
 
-This is the driver for Accelerometer ADXL345 Adafruit shield using NRF52.
+This is the library for Accelerometer ADXL345 using NRF52. 
+This library uses the I2C bus.
 
 
 
@@ -11,7 +12,11 @@ This is the driver for Accelerometer ADXL345 Adafruit shield using NRF52.
 
 ### How to use
 
-The easiet way to use this library is to open the nRF5 SDK 15 example named twi_scanner and add the header file and source code to your project. 
+The easiet way to use this library is to open the nRF5 SDK 15 example using I2C (TWI) and add the header file and source code to your project Depends on your PCA.
+
+### Example project 
+
+You can test this library using Segger Example. Download the example project and open the Solution using segger with path /examples/peripheral/twi_sensor/your_PCA/blank/ses
 
 
 |Function                          |Description               |
